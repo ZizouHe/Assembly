@@ -68,3 +68,4 @@ s:  mov al, ds:[bx]          ; 保存年份
 codesg ends
 
 end start
+
