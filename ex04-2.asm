@@ -1,4 +1,4 @@
-; experiment 4
+; 向内存0:200~0:23F依次传送0~63
 
 assume cs: code
 

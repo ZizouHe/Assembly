@@ -1,3 +1,6 @@
+; 将包含任意字符，以0结尾的字符串的小写字母转变成大写字母
+; ds:si指向字符串首地址
+
 assume cs:code, ds: data
 
 data segment

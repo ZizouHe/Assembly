@@ -1,3 +1,6 @@
+; 将word型数据转变为表示十进制数、用0结尾的字符串
+; 参数, ax: word型数据; ds:si指向字符串首地址
+
 assume cs:code,ds:data
 
 data segment

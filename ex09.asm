@@ -1,3 +1,5 @@
+; 在屏幕中间分别显示绿色、绿底红色、白底蓝色的指定字符串
+
 assume cs:codesg, ds:data, ss:stack
 
 data segment

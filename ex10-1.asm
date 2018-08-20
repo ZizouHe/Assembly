@@ -1,3 +1,7 @@
+; 在指定位置，用指定颜色显示一个用0结尾的字符串
+; 参数, dh: 行号(0~24); dl: 列号(0~79)
+; 参数, cl: 颜色; ds:si指向字符串首地址
+
 assume cs:code,ds:data
 
 data segment

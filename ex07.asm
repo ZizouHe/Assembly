@@ -1,3 +1,5 @@
+; 将data段按照table段给出的格式填入table段，并计算人均收入
+
 assume cs:codesg,ds:data,es:table
 
 data segment

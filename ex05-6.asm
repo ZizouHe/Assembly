@@ -1,3 +1,5 @@
+; 将a段前8个数据逆序存到b段
+
 assume cs:code
 
 a segment

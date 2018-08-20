@@ -1,3 +1,5 @@
+; 将a段和b段数据分别相加，结果存在c段
+
 assume cs:code
 
 a segment

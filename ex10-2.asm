@@ -1,3 +1,10 @@
+; 进行不会产生溢出的除法运算，被除数为dword型
+; 除数为word型，结果为dword型
+; 参数, ax: dword型数据的低16位; dx: dword型数据的高16位
+; 参数, cx: 除数
+; 返回, ax: 结果的低16位; dx: 结果的高16位
+; 返回, cx: 余数
+
 assume cs:code,ss:stack
 
 stack segment
