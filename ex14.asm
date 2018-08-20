@@ -1,3 +1,5 @@
+; 以"年/月/日 时:分:秒"的格式，显示当前的日期、时间
+
 assume cs:code, ds:data
 
 data segment
